@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+  background-color: white;
+  max-width: 100%;
+}
+  .btn-primary {
+    background-color: #fc7b10;
+    border: none;
+    transition: 300ms;
+  }
+
+  .btn-primary:hover {
+    background-color: #ff9035;
+    transform: scale(1.05);
+    color: white;
+  }
+
+  .body {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  .navbar {
+    padding: 15px;
+    border-bottom: 4px solid #fc7b10;
+  }
+
+  .section-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    background-image: url("asset/Untitled-1\ \(1\).jpg");
+    background-attachment: scroll;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 40px 0 40px 0;
+  }
+
+  .section-div-content-content {
+    color: white;
+  }
+
+  .section-form-content-div {
+    padding: 60px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .form-div {
+    width: 100%;
+    background-color: rgb(205, 205, 205);
+    padding: 50px;
+    border-radius: 10px;
+  }
+
+  .section-work {
+    width: 100%;
+    padding: 70px 40px 70px 40px;
+  }
+
+  .section-heading {
+    text-align: center;
+  }
+
+  .section-work-div {
+    padding: 70px 0 0px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+.section-work-div-card{
+  padding: 70px 0 0px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+  .card {
+    border: none;
+    margin-bottom: 40px;
+    transition: 300ms;
+  }
+
+  /* gallry */
+  .card-div {
+    width: 33%;
+    height: 500px;
+    overflow: hidden;
+  }
+
+  .img-div {
+    width: 100%;
+  }
+
+ 
+  .ideas{
+   height: 70px;
+  }
+
+  .card-body {
+    padding: 20px 0 20px 0;
+    text-align: center;
+   
+  }
+
+  .card-body h5 {
+    font-size: 16px;
+    margin: 0;
+  }
+  .svg-div{
+    width: 33%;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  .section-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url("asset/lets-connect-top-bg.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 40px 0 40px 0;
+  }
+  .section-tech{
+    padding:70px 40px 70px 40px ;
+    background-color:   rgb(241, 241, 241);
+  }
+  .tech-div{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .tech-div img{
+    width:70PX;
+  }
+
+  footer {
+    width: 100%;
+    padding: 20px 40px 20px 40px;
+    /* background-color: rgb(238, 238, 238); */
+    border-top: 4px solid #fc7b10;
+  }
+
+ 
+  button.btn.btn-primary.btn-lg {
+      width: 100%;
+  }
+  .footer-details {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .social-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  address h4 {
+    color: #fc7b10;
+
+  }
+
+
+
+
+
+
+  .orange{
+    color:#fc7b10;
+  }
