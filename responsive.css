@@ -15,7 +15,7 @@
   }
    .section-div-content-content {
     width:100%;
-    padding: 0 10px 0 10px;
+    padding: 0 20px 0 20px;
   }
    .form-div {
     padding: 20px;
@@ -32,12 +32,25 @@
     
     justify-content: center;
   }
+  .section-tech{
+    padding-bottom: 30px;
+  }
+  .tech-div{
+    overflow-x: scroll;
+    justify-content: start;
+  }
    .tech-div img{
     width: 40px;
+   
     
    }
+   .tech-div-img{
+    width: 50%;
+    padding: 0 22px 40px 22px;
+
+  }
     footer{
-    text-align: center;
+    text-align: left;
    }
     .footer-details {
         width: 100%;
@@ -45,15 +58,19 @@
         flex-direction:column;
         justify-content: center;
     }
-    
+
     .margin-mb{
-        margin-bottom: 20px;
+        margin-bottom:25px;
     }
     .margin-mb img{
         width:80px;
     }
+    .margin-mb p{
+      margin: 0;
+    }
     .social-div {
       flex-direction:column;
-      justify-content: center;
+      align-items: start;
+      justify-content: start;
     }
   }
