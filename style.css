@@ -138,15 +138,17 @@ body{
     padding-top: 40px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    /* overflow:scroll; */
   }
-  .tech-div img{
-    width:70PX;
+  .tech-div-img img{
+    width:70px;
   }
 
   footer {
     width: 100%;
-    padding: 20px 40px 20px 40px;
+    padding: 30px 40px 30px 40px;
     /* background-color: rgb(238, 238, 238); */
     border-top: 4px solid #fc7b10;
   }
@@ -169,16 +171,35 @@ body{
     justify-content: space-between;
   }
 
-  address h4 {
-    color: #fc7b10;
+  address {
+    margin: 0;
+    text-align: left;
+    font-size: small;
 
   }
-
-
-
-
-
-
   .orange{
     color:#fc7b10;
   }
+
+
+/* scrollbar */
+  /* width */
+::-webkit-overflow-scrollbar{
+  width:3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(207, 207, 207); 
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(190, 190, 190); 
+}
