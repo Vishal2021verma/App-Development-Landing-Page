@@ -45,6 +45,7 @@ body{
 
   .section-div-content-content {
     color: white;
+    transition:400ms;
   }
 
   .section-form-content-div {
@@ -120,6 +121,8 @@ body{
     width: 33%;
     text-align: center;
     margin-bottom: 70px;
+    padding: 0 70px 0 70px;
+    transition: 300ms;
   }
   .section-contact {
     display: flex;
@@ -142,8 +145,12 @@ body{
     align-items: center;
     /* overflow:scroll; */
   }
+  
   .tech-div-img img{
     width:70px;
+  }
+  .tech-div-img{
+    transition: 300ms;
   }
 
   footer {
@@ -202,4 +209,26 @@ body{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(190, 190, 190); 
+}
+
+
+/* animation for variable width */
+.variable_width{
+  width: 0px;
+  height: 3px;
+  background: #fc7b10;
+  transition: width 300ms;
+  transition-timing-function: cubic-bezier(0.07, 0.88, 0.44, 1.13);
+}
+.svg-div:hover{
+  transform: scale(1.02);
+}
+.svg-div:hover .variable_width{
+  width:100%;
+}
+.tech-div-img:hover{
+  transform: scale(1.05);
+}
+.card:hover{
+  transform: scale(1.05);
 }
